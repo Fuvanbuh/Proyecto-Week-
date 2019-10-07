@@ -27,7 +27,7 @@ Tendra 5 paginas --> Home - Champions - SingUp - Faqs - Login <--
 
 ## Backlog
 - CHAMPIONS : Rotacion semanal de campeones.
-- WORLD CUP: Calendario del mundial con votacion y estaistica.
+- WORLD CUP: Calendario del mundial con votacion y estadistica.
 - BONUS TRACK: regalo sorpresa con video.
 - HOME: Vincular las noticias del ultimo parche con las noticias del Home.
 
