@@ -25,7 +25,7 @@ body{
 .img-hearder{
     height: auto;
     width: 100%;
-    max-width: 250px
+    max-width: 250px;
 }
      
 .navegacion{
@@ -76,7 +76,7 @@ body{
 .inputs-style input{
     width: 33%;
     margin: 20px;
-    color: #c9aa71;
+    color: #f0e6d2;
     text-align: center;
     margin: 40px 0px 0px 0px;      
     border-color: #c9aa71;
@@ -94,10 +94,97 @@ body{
     
     
 }
+.boton{
+    background-color: #c9aa71;
+    padding: 15px 50px 15px 50px;
+    margin: 50px;
+}
+.signup-form{
+    z-index: 10;
+}
+.back-main{
+    background: url(/Proyecto-Week-/starter-code/images/imagenlogin.jpg) rgba(0,0,0,0.7);
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cont-login{
+    background-color: #000a13;     
+    width: 33%;
+    min-height: 80vh;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border: solid 1px #c9aa71; 
+    text-align: center;
+    
+}
+.log-style input{
+    width: 60%;
+    margin: 20px;
+    color: #f0e6d2;
+    text-align: center;
+    margin: 40px 0px 0px 0px;      
+    border-color: #c9aa71;
+    background-color: #333132;
+    padding: 5px;
+
+}
+.lin-style{
+    color: #c9aa71;
+}
+.under-style{
+    text-decoration-line: underline;
+   text-decoration-color: #dedede;
+   text-underline-position: under;
+
+}
+.back-champions{
+    background: url(/Proyecto-Week-/starter-code/images/imagenchampions.jpg) rgba(0,0,0,0.7);
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    background-blend-mode: multiply; 
+    
+
+}
+.cont-champions{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;  
+}
+.cacatua1{
+    width: 60%;
+    padding: 15px;
+    text-align: center;
+}
+.res-champions{
+    background-color: #c9aa71;
+    width: 25%;
+    height: 50vh;
+    margin: 50px auto;
+     
+    
+    
+
+
+}
 @media (max-width: 550px){
     .inputs-style input{
      width: 90%;
      
+    }
+    .log-style input{
+        width: 90%;
+    }
+    .cont-login{
+        width: 90%;
+        padding-top: 50px;
+       
     }
 }
 
@@ -111,21 +198,11 @@ body{
         width: 80%;
         
        }
+       .log-style input{
+        width: 70%;
+    }
+    .cont-login{
+        width: 70%;
+    }
     
     }
-.boton{
-    background-color: #c9aa71;
-    padding: 15px 50px 15px 50px;
-    margin: 50px;
-}
-.signup-form{
-    z-index: 10;
-}
-.back-main{
-    background: url(/Proyecto-Week-/starter-code/images/imagenlogin.jpg) rgba(0,0,0,0.7);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-blend-mode: multiply;
-
-}
