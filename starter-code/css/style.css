@@ -1,7 +1,13 @@
-html{
-    margin: 0;
-    padding: 0;
-    background-color: black
+*,
+*::after,
+*::before{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+body{
+    background: black;
 }
 .org li a{
     color: #c9aa71;
@@ -74,29 +80,27 @@ html{
 .inputs-style input{
     width: 33%;
     margin: 20px;
+    color: #c9aa71;
     text-align: center;
     margin: 40px 0px 0px 0px;      
     border-color: #c9aa71;
     background-color: #333132;
-    font: bold;
     padding: 5px;
 }
 .section-signup{
-    background-image: url(/Proyecto-Week-/starter-code/images/Diana_Splash_11.jpg);
-     height: 100%;
-     width: 100%;
-     background-repeat: no-repeat;
-     background-color: black;
-     background-size: cover;
+    background:url(/Proyecto-Week-/starter-code/images/Diana_Splash_11.jpg) rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    z-index: 1;
     
     
 }
 @media (max-width: 550px){
     .inputs-style input{
-     width: 100%;
-     display: flex;
-     flex-direction: column;
-     align-content: center;
+     width: 90%;
      
     }
 }
@@ -113,4 +117,7 @@ html{
     background-color: #c9aa71;
     padding: 15px 50px 15px 50px;
     margin: 50px;
+}
+.signup-form{
+    z-index: 10;
 }
