@@ -13,11 +13,7 @@ body{
     color: #c9aa71;
 }
 
-.nav-color{
-    background-color: black;
-    
-    
-}
+
 
 
 .stilo-main{
@@ -89,7 +85,7 @@ body{
 }
 .section-signup{
     background:url(/Proyecto-Week-/starter-code/images/Diana_Splash_11.jpg) rgba(0,0,0,0.6);
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -111,6 +107,10 @@ body{
     .cacatua {
         order: -1;
     }
+    .inputs-style input{
+        width: 80%;
+        
+       }
     
     }
 .boton{
@@ -120,4 +120,12 @@ body{
 }
 .signup-form{
     z-index: 10;
+}
+.back-main{
+    background: url(/Proyecto-Week-/starter-code/images/imagenlogin.jpg) rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: multiply;
+
 }
