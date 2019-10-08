@@ -10,12 +10,13 @@ html{
 .nav-color{
     background-color: black;
     
+    
 }
 
 
 .stilo-main{
     height: 70vh;
-    background-image: url(/images/background.jpg);
+    background-image: url(/Proyecto-Week-/starter-code/images/background.jpg);
     background-color: black;
 }
 
@@ -63,9 +64,53 @@ html{
     width: 100%
 }
 
+
+.inputs-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.inputs-style input{
+    width: 33%;
+    margin: 20px;
+    text-align: center;
+    margin: 40px 0px 0px 0px;      
+    border-color: #c9aa71;
+    background-color: #333132;
+    font: bold;
+    padding: 5px;
+}
+.section-signup{
+    background-image: url(/Proyecto-Week-/starter-code/images/Diana_Splash_11.jpg);
+     height: 100%;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-color: black;
+     background-size: cover;
+    
+    
+}
+@media (max-width: 550px){
+    .inputs-style input{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     
+    }
+}
+
+
+
 @media (max-width: 768px) {
     .cacatua {
-      order: -1;
+        order: -1;
     }
-  }
-
+    
+    }
+.boton{
+    background-color: #c9aa71;
+    padding: 15px 50px 15px 50px;
+    margin: 50px;
+}
