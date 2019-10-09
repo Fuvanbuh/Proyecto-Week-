@@ -4,6 +4,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: "Gill Sans W04", GillSans, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
    
 }
 body{
@@ -84,8 +85,8 @@ body{
     padding: 5px;
 }
 .section-signup{
-    background:url(/Proyecto-Week-/starter-code/images/Diana_Splash_11.jpg) rgba(0,0,0,0.6);
-    height: 100vh;
+    background:url(/Proyecto-Week-/starter-code/images/Diana_Splash_11.jpg) rgba(0,0,0,0.7);
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -143,7 +144,7 @@ body{
    text-underline-position: under;
 
 }
-.back-champions{
+.backChampions{
     background: url(/Proyecto-Week-/starter-code/images/imagenchampions.jpg) rgba(0,0,0,0.7);
     width: 100%;
     height: 150vh;
@@ -161,19 +162,125 @@ body{
     width: 60%;
     padding: 15px;
     text-align: center;
+    border: solid 2px #c9aa71; 
+    background-color: #333132;
+    color: #c9aa71;
+    background: linear-gradient(to bottom, #2f2f2f 0%, #000000 100%);
+    
+}
+.search-but{
+    background-color: #151515;
+    background: linear-gradient(to bottom, #2f2f2f 0%, #000000 100%);
+    color: #c9aa71
 }
 .res-champions{
-    background-color: #c9aa71;
+    color: #dedede;
+    
+    background: linear-gradient(to bottom, #c9aa71 0%, #151515 100%);
     width: 25%;
-    height: 50vh;
     margin: 50px auto;
-     
-    
-    
-
+    border: solid 4px #000a13;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    display: flex;
+    flex-direction: column;
+        
+}
+.tipo{
+    background-color: #000a13;
+    color: #fff;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 0 3px;
 
 }
+.text-cent{
+    text-align: center;
+}
+.img-cham{
+    margin:10px auto;
+    
+}
+.back-faq{
+    background: url(/Proyecto-Week-/starter-code/images/faqsimage.jpg) rgba(0,0,0,0.7);
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    background-blend-mode: multiply; 
+    
+
+}
+
+
+  
+  .container-faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: calc(100vw - 40px);
+    min-height: calc(100vh - 40px);
+    padding: 20px;
+  }
+  
+  .accordion {
+    width: 600px;
+  }
+  
+  .accordion-item {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+  }
+  .accordion-item__title {
+    background: linear-gradient(to bottom, #c9aa71 0%, #151515 100%);;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 20px 25px;
+    cursor: pointer;
+    margin: 0;
+    transition: 0.2s ease;
+    font-size: 14px;
+  }
+  @media (min-width: 730px) {
+    .accordion-item__title {
+      font-size: 18px;
+    }
+  }
+  .accordion-item__title:hover {
+    background: #c9aa71;
+    transition: 0.2s ease;
+  }
+  .accordion-item__content {
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 1.7em;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+    font-size: 14px;
+  }
+  @media (min-width: 730px) {
+    .accordion-item__content {
+      font-size: 16px;
+    }
+  }
+  .accordion-item__content.is-open {
+    max-height: 600px;
+    transition: 0.5s ease;
+  }
+  .accordion-item__content-inside {
+    padding: 15px 20px;
+  }
+  
 @media (max-width: 550px){
+    
+    .cont-champions{
+        width: 80%;
+        margin: 30px auto;
+    }
     .inputs-style input{
      width: 90%;
      
@@ -184,11 +291,17 @@ body{
     .cont-login{
         width: 90%;
         padding-top: 50px;
-       
+    }
+    .res-champions{
+        width: 80%
     }
 }
 
-
+@media (max-width: 1000px) {
+    .res-champions{
+        width: 60%;
+    }
+}
 
 @media (max-width: 768px) {
     .cacatua {
@@ -197,12 +310,16 @@ body{
     .inputs-style input{
         width: 80%;
         
-       }
-       .log-style input{
+     }
+     .log-style input{
         width: 70%;
     }
     .cont-login{
         width: 70%;
     }
-    
+    .res-champions{
+        width: 80%
     }
+    }
+
+  
