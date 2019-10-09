@@ -19,7 +19,7 @@ body{
 
 .stilo-main{
     height: 70vh;
-    background-image: url(/Proyecto-Week-/starter-code/images/background.jpg);
+    background-image: url(/Proyecto-Week-/images/background.jpg);
     background-color: black;
 }
 
@@ -85,7 +85,7 @@ body{
     padding: 5px;
 }
 .section-signup{
-    background:url(/Proyecto-Week-/starter-code/images/Diana_Splash_11.jpg) rgba(0,0,0,0.7);
+    background:url(/Proyecto-Week-/images/Diana_Splash_11.jpg) rgba(0,0,0,0.7);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@ body{
     z-index: 10;
 }
 .back-main{
-    background: url(/Proyecto-Week-/starter-code/images/imagenlogin.jpg) rgba(0,0,0,0.7);
+    background: url(/Proyecto-Week-/images/imagenlogin.jpg) rgba(0,0,0,0.7);
     width: 100%;
     height: 150vh;
     background-size: cover;
@@ -145,7 +145,7 @@ body{
 
 }
 .backChampions{
-    background: url(/Proyecto-Week-/starter-code/images/imagenchampions.jpg) rgba(0,0,0,0.7);
+    background: url(/Proyecto-Week-/images/contenidochampions.jpg) rgba(0,0,0,0.7);
     width: 100%;
     height: 150vh;
     background-size: cover;
@@ -203,7 +203,7 @@ body{
     
 }
 .back-faq{
-    background: url(/Proyecto-Week-/starter-code/images/faqsimage.jpg) rgba(0,0,0,0.7);
+    background: url(/Proyecto-Week-/images/faqsimage.jpg) rgba(0,0,0,0.7);
     width: 100%;
     height: 150vh;
     background-size: cover;
