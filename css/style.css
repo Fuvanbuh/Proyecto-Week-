@@ -228,8 +228,8 @@ body{
 }
 
 .errors-container p.correct-message {
-    background-color: rgb(47, 164, 93);
-    box-shadow: 0 0 10px #dbf1c1;
+    color: rgb(47, 164, 93);
+    box-shadow: 0 0 10px rgb(47, 164, 93);
 }
 
 

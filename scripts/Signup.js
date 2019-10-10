@@ -22,7 +22,7 @@ class Signup {
         console.log(name, champName, mail, password)
         //crear una instancia de User
         const newUser = new User(name, champName, mail, password)
-        //console.log(newUser)
+        console.log(newUser)
         //almacenar datos en local storage
         let usersDB = JSON.parse(localStorage.getItem('users'));//recogemos del local storage
 
