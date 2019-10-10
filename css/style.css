@@ -299,10 +299,12 @@ body{
   }
   
 @media (max-width: 550px){
-    
+    .cacatua {
+        order: -1;
+    }
     .cont-champions{
         width: 80%;
-        margin: 30px auto;
+        margin: 0px auto;
     }
     .inputs-style input{
      width: 90%;
@@ -323,6 +325,9 @@ body{
 @media (max-width: 1000px) {
     .res-champions{
         width: 60%;
+    }
+    .cacatua {
+        order: -1;
     }
 }
 
