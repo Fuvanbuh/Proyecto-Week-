@@ -211,6 +211,26 @@ body{
     
 
 }
+.errors-container{
+    width: 100%;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+
+.errors-container p{
+    background-color: var(--red-color);
+    padding: 20px;
+    margin: 10px 0;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #bb0505;
+}
+
+.errors-container p.correct-message {
+    background-color: rgb(47, 164, 93);
+    box-shadow: 0 0 10px #dbf1c1;
+}
 
 
   
@@ -248,13 +268,16 @@ body{
   @media (min-width: 730px) {
     .accordion-item__title {
       font-size: 18px;
+     
     }
   }
   .accordion-item__title:hover {
+    
     background: #c9aa71;
     transition: 0.2s ease;
   }
   .accordion-item__content {
+      
     color: rgba(0, 0, 0, 0.65);
     line-height: 1.7em;
     max-height: 0;
@@ -304,6 +327,9 @@ body{
 }
 
 @media (max-width: 768px) {
+    .boton{
+        margin: 30px auto;
+    }
     .cacatua {
         order: -1;
     }
