@@ -9,7 +9,7 @@ Tendra 5 paginas --> Home - Champions - SingUp - Faqs - Login <--
 
 
 - Home:
-	novedades del parche,
+	noticias,
 	imagenes
 
 - Champions:
