@@ -24,12 +24,12 @@ const login = event => {
     //recoger los datos del los inputs de login
     const champNameInput = document.querySelector('#champName');
     const passwordInput = document.querySelector('#password');
-    console.log(champNameInput)
-    console.log(passwordInput)
+    // console.log(champNameInput)
+    //console.log(passwordInput)
     //comparar si coinciden los campos con la memoria
     const user = usersDB.find(user => user.champName === champNameInput.value && user.password === passwordInput.value);
     //llamar a handleMessages pasando user
-    console.log(user)
+    //console.log(user)
     handleMessage(user)
 
 }
